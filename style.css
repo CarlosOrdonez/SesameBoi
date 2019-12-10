@@ -1,0 +1,160 @@
+.picture{
+	width: 50%;
+	height: 50%;
+	transform: translate(20,20);
+	display: flex;
+}
+body {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.peepee{
+	position: absolute;
+	top: 25%; left: 25%;
+	display: none;
+}
+
+.pink-col {
+	display: flex;
+	height: 100%;
+	width: calc(100%/3);
+}
+
+.blue-col {
+	display: flex;
+	height: 80%;
+	width: 100%;
+}
+
+.orange-col {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.yellow-row {
+	display: block;
+	height: 20%;
+	width: 100%;
+}
+.center-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contain-img {
+  max-width: 99%;
+  max-height: 99%; 
+}
+.yellow {
+	background-color: #FFF800;
+}
+
+.blue {
+	background-color: #0009EB;
+}
+
+.orange {
+	background-color: #FF8E00;
+}
+
+.pink {
+	background-color: #FF38AC;
+}
+.red {
+	background-color: #FF1500;
+}
+.green {
+	background-color: #1BFF00;
+}
+.purple {
+	background-color: #B401FF;
+}
+.hide-this{
+	display:none;
+}
+@media screen and (max-width: 768px) {
+	body{
+		display: block;	
+	}
+.pink-col {
+	display: flex;
+	height: 100%;
+	width: calc(100%/3);
+}
+
+.blue-col {
+	display: block;
+	height: 80%;
+	width: 100%;
+}
+
+.orange-col {
+	display: flex;
+	height: 50%;
+	width: 100%;
+}
+
+.yellow-row {
+	display: block;
+	height: 20%;
+	width: 100%;
+}
+}
+
+@media screen and (max-width: 500px) {
+	body{
+		
+		display: block;	
+	}
+.pink-col {
+	display: flex;
+	height: calc(100%/3);
+	width: 100%;
+}
+
+.blue-col {
+	display: block;
+	height: 80%;
+	width: 100%;
+}
+
+.orange-col {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.yellow-row {
+	display: block;
+	height: 20%;
+	width: 100%;
+}
+}
+{
+	
+}
+img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1); 
+}
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+.wait {cursor: pointer;}
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
+}
