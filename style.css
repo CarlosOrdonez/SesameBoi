@@ -75,79 +75,78 @@ body {
 .hide-this{
 	display:none;
 }
+
 @media screen and (max-width: 768px) {
-	body{
+	body {
 		display: block;	
 	}
-.pink-col {
-	display: flex;
-	height: 100%;
-	width: calc(100%/3);
-}
+	.pink-col {
+		display: flex;
+		height: 100%;
+		width: calc(100%/3);
+	}
 
-.blue-col {
-	display: block;
-	height: 80%;
-	width: 100%;
-}
+	.blue-col {
+		display: block;
+		height: 80%;
+		width: 100%;
+	}
 
-.orange-col {
-	display: flex;
-	height: 50%;
-	width: 100%;
-}
+	.orange-col {
+		display: flex;
+		height: 50%;
+		width: 100%;
+	}
 
-.yellow-row {
-	display: block;
-	height: 20%;
-	width: 100%;
-}
+	.yellow-row {
+		display: block;
+		height: 20%;
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 500px) {
-	body{
-		
+	body {
 		display: block;	
 	}
-.pink-col {
-	display: flex;
-	height: calc(100%/3);
-	width: 100%;
+	.pink-col {
+		display: flex;
+		height: calc(100%/3);
+		width: 100%;
+	}
+
+	.blue-col {
+		display: block;
+		height: 80%;
+		width: 100%;
+	}
+
+	.orange-col {
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+
+	.yellow-row {
+		display: block;
+		height: 20%;
+		width: 100%;
+	}
 }
 
-.blue-col {
-	display: block;
-	height: 80%;
-	width: 100%;
-}
-
-.orange-col {
-	display: block;
-	height: 100%;
-	width: 100%;
-}
-
-.yellow-row {
-	display: block;
-	height: 20%;
-	width: 100%;
-}
-}
-{
-	
-}
 img:hover {
   filter: grayscale(100%);
   transform: scale(1.1); 
 }
-.animate
-{
+img:active {
+  transform: scale(0.85);
+}
+.animate {
 	transition: all 0.1s;
 	-webkit-transition: all 0.1s;
 }
 .wait {cursor: pointer;}
-.action-button
-{
+.action-button {
 	position: relative;
 	padding: 10px 40px;
   margin: 0px 10px 10px 0px;
